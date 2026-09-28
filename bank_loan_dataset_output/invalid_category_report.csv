@@ -1,0 +1,7 @@
+column,invalid_count,invalid_values
+gender,133,"['female', 'Femal', 'MALE', 'M', '  Male  ', 'UNKNOWN', 'FEMALE', 'Malee', 'F', '  Female  ', 'male']"
+marital_status,133,"['DIVORCEDDDD', '  Single  ', 'Maried', 'MARRIED', 'DIVORCED', 'single', 'SINGLE', '  Married  ', 'widowed', 'married', '  Divorced  ']"
+education,142,"['GRADUATE', 'high school', 'Unknown123', '  Postgraduate  ', 'GRAD', '  High School  ', 'Graduatee', 'Bachelorss', 'graduate', 'postgraduate', '  Graduate  ', 'HIGH SCHOOL', 'POSTGRADUATE']"
+residence_type,131,"['UNKNOWN', '  Rented  ', 'OWNED', 'Ownedd', 'Rent', 'family', 'Parent_Home', '  Owned  ', 'owned', 'rented', 'RENTED', 'FAMILY']"
+employment_type,152,"['Studnt', 'Self employed', 'SALARIED', 'salaried', 'SELF-EMPLOYED', '  Salaried  ', 'BUSINESS', 'BUSSINESS', 'Salariedd', '  Business  ', 'UNEMPLOYED', '  Unemployed  ', 'unemployed', 'student', 'business']"
+loan_purpose,143,"['AUTO1', 'Persnal', 'medical', 'BUSINESS', 'auto', 'UnknownLoan', 'Busines', 'home', 'personal', 'Homee', 'EDUCATION', '  Education  ', 'PERSONAL', '  Home  ', '  Personal  ', '  Business  ', 'HOME', 'education', '  Medical  ']"

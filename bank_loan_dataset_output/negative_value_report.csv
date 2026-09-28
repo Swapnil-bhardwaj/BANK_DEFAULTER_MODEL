@@ -1,0 +1,17 @@
+column,negative_count
+age,0
+dependents,19
+employment_years,19
+annual_income,29
+monthly_income,21
+credit_score,0
+existing_loans,20
+previous_defaults,14
+late_payments_12m,0
+credit_utilization,0
+months_since_last_delinquency,0
+loan_amount,28
+loan_term_months,0
+interest_rate,33
+dti_ratio,34
+collateral_value,20

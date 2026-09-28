@@ -1,0 +1,31 @@
+BANK LOAN DATASET - EDA SUMMARY
+==================================================
+
+Rows: 20000
+Columns: 26
+
+Default Rate: 18.00%
+Non-Default Rate: 82.00%
+
+Missing Values: 94
+Duplicate Rows: 0
+
+Correlation with Loan Default:
+                               correlation_with_default
+loan_default                                   1.000000
+dti_ratio                                      0.345890
+previous_defaults                              0.269476
+interest_rate                                  0.249112
+late_payments_12m                              0.232883
+existing_loans                                 0.231990
+credit_utilization                             0.068299
+dependents                                     0.013427
+collateral_value                               0.013427
+loan_term_months                               0.005646
+loan_amount                                   -0.039921
+annual_income                                 -0.071040
+monthly_income                                -0.071148
+age                                           -0.135402
+months_since_last_delinquency                 -0.179421
+employment_years                              -0.285543
+credit_score                                  -0.386206

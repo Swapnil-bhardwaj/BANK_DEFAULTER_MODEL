@@ -1,0 +1,26 @@
+column_name,description,data_type,valid_range_or_values
+customer_id,Unique synthetic customer identifier,string,C000001 etc.
+age,Customer age,integer,21-70 in clean data
+gender,Customer gender,category,Male/Female/Other
+marital_status,Marital status,category,Single/Married/Divorced/Widowed
+education,Education level,category,High School/Graduate/Postgraduate/Other
+dependents,Number of dependents,integer,0-5
+residence_type,Residence type,category,Owned/Rented/Family
+employment_type,Employment category,category,Salaried/Self-Employed/Business/Student/Unemployed
+employment_years,Employment duration,integer,>=0
+annual_income,Annual income in INR,numeric,>0
+monthly_income,Monthly income in INR,numeric,>0
+credit_score,Synthetic credit score,integer,300-850
+existing_loans,Existing loan count,integer,>=0
+previous_defaults,Previous default count,integer,>=0
+late_payments_12m,Late payments in previous 12 months,integer,>=0
+credit_utilization,Credit utilization ratio,float,0-1
+months_since_last_delinquency,Months since last delinquency,integer,0-60
+loan_amount,Requested loan amount,numeric,>0
+loan_term_months,Loan term,integer,12-84
+interest_rate,Annual interest rate,float,6-28
+dti_ratio,Debt-to-income ratio,float,0-1
+collateral_value,Collateral value,numeric,>=0
+loan_purpose,Loan purpose,category,Home/Education/Personal/Auto/Medical/Business
+application_date,Application date,date,YYYY-MM-DD
+loan_default,Target variable,binary,"0=Non-default, 1=Default"

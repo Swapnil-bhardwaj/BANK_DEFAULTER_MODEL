@@ -1,0 +1,16 @@
+BANK LOAN DEFAULT PREDICTION - ML SUMMARY
+============================================================
+
+Dataset size: (20000, 26)
+Training samples: 16000
+Testing samples: 4000
+
+MODEL COMPARISON
+------------------------------------------------------------
+              model  accuracy  precision   recall  f1_score  roc_auc
+  Gradient Boosting    0.9675   0.971246 0.844444  0.903418 0.993138
+Logistic Regression    0.9625   0.907143 0.881944  0.894366 0.988298
+      Random Forest    0.9340   0.770142 0.902778  0.831202 0.981311
+
+Selected model: Gradient Boosting
+Selection metric: ROC-AUC

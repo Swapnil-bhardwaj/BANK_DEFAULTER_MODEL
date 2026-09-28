@@ -1,0 +1,29 @@
+
+BANK LOAN DATASET GENERATION SUMMARY
+=====================================
+
+Random seed: 42
+
+Clean rows:
+20,000
+
+Raw rows:
+20,300
+
+Number of columns:
+25
+
+Clean default rate:
+18.00%
+
+Exact duplicate rows intentionally added:
+300
+
+Anomaly events logged:
+3,222
+
+Generated files:
+- bank_loans_clean.csv
+- bank_loans_raw.csv
+- anomaly_log.csv
+- data_dictionary.csv
